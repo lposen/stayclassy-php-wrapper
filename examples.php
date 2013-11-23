@@ -34,7 +34,7 @@ $name = $ai['name'];
 $img = $ai['charity_image_large'];
 $fnd_pages = $ai['total_fund_pages'];
 echo "Name: ".$name."<br><img src='".$img."'><br>Total Fundraising Pages: ".$fnd_pages;
-
+var_dump($ai);
 // 2. Account Activity
 $aa = $StayClassy->call('account-activity', array(
 	'cid' => 5417, //required
