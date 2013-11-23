@@ -11,5 +11,6 @@ $result = $StayClassy->call('account-info', array(
 	'cid' => 5417
 ));
 var_dump($result);
+echo $result['name'];
 
 ?>
