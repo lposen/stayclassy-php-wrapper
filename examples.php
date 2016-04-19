@@ -22,7 +22,7 @@
 require 'StayClassy.class.php';
 
 // TODO: replace with YOUR_TOKEN_HERE
-$token = 'utvVCIjXQWPvXIU80VME';
+$token = 'TOKEN';
 $StayClassy = new StayClassy($token);
 
 // 1. Account Info
